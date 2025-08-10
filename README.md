@@ -57,6 +57,7 @@ src/
 ├── context/           # Cart Context with state logic
 ├── assets/            # Icons/images
 └── styles/            # Global styles (globals.css, Tailwind base)
+```
 
 ---
 
