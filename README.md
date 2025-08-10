@@ -1,6 +1,6 @@
 # 🍔 FoodRush - Food Delivery App (Next.js)
 
-🔗 **Live Demo:** https://food-delivery-app-xi-one.vercel.app/
+🔗 **Live Demo:** https://food-rush-app.vercel.app/
 
 ---
 
