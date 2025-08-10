@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🍔 FoodRush - Food Delivery App (Next.js)
 
-## Getting Started
+🔗 **Live Demo:** https://food-delivery-app-xi-one.vercel.app/
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📌 Introduction
+
+**FoodRush** is a responsive food delivery web app built using **Next.js** and **Tailwind CSS.**
+It simulates a smooth online ordering experience for a restaurant brand. Users can browse menus, add items to a cart, and proceed to checkout — all in a clean, mobile-first interface with **server-side rendering** for better SEO and performance.
+
+---
+
+## ⚙️ Features
+
+⚙️ Features
+🏠 **Home Page:** Promotions banner, category filter, and featured items.
+
+📋 **Menu Page:** View all food items with filtering by category.
+
+➕ **Add to Cart:** Add items with quantity control.
+
+🛒 **Cart Page:** View selected items, update quantities, remove items.
+
+💳 **Checkout Page:** Bonus page for placing orders (no payment logic).
+
+🔁 **Reusable Components:** Modular design for scalability.
+
+---
+
+## 🛠 Technologies Used
+
+⚛️ Next.js (App Router)
+
+💨 Tailwind CSS
+
+🧭 Next.js Navigation
+
+💾 React Context API (Cart State Management)
+
+⚡ Vercel Deployment
+
+---
+
+## 📁 Project Structure
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+src/
+├── app/               # Next.js App Router pages
+│   ├── layout.jsx     # Root layout
+│   ├── page.jsx       # Home page
+│   ├── menu/page.jsx  # Menu page
+│   ├── cart/page.jsx  # Cart page
+│   └── checkout/page.jsx # Checkout page
+├── components/        # UI Components (Navbar, Footer, FoodCard, etc.)
+├── context/           # Cart Context with state logic
+├── assets/            # Icons/images
+└── styles/            # Global styles (globals.css, Tailwind base)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Installation & Setup
 
-## Learn More
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/AnandKum4r/foodrush-app.git
+   cd foodrush-app
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Visit in your browser:**
+   (http://localhost:3000)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🙌 Credits
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with ❤️ by Anand Kumar — React & Next.js Developer.
